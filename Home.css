@@ -1,0 +1,120 @@
+ 
+
+.navbar {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 2px 3px #E7E5DF
+}
+
+span {
+    background-color: #2A3025; 
+    color: #EEECD3;
+    padding: .25em;
+    position: relative;
+    bottom: 40px;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+}
+
+.navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-right: 4em;
+} 
+
+.links {
+    margin: 0 2em;
+    color: black;
+}
+
+.titles{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maintitle {
+    font-size: 4em;
+    margin: .5em 0 0 0;
+}
+
+.secondarytitle {
+    font-size: 2.5em;
+    font-weight: 100;
+    margin: 0 0 2em 0;
+}
+
+
+/*section 1 images*/
+
+/*flex Box */
+
+.section1 {
+    display: flex;
+    margin: 0 1em;
+}
+
+.pots {
+    width: 60%;
+    margin: 0 .5em;
+}
+
+.bowls {
+    width: 20%;
+    margin: 0 .5em;
+}
+
+.platter {
+     width: 20%;
+     margin: 0 .5em;
+}
+
+.product-1, .product-2, .product-3 {
+    width: 100%; 
+    object-fit: cover;
+    height: 55vh;
+}
+
+/*section 2 images*/
+
+/*CSS Grid*/
+
+.section2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 1em;
+} 
+
+.twos {
+    grid-column-start: span 2;
+}
+
+.product-4, .product-5, .product-6, .product-7 {
+    width: 100%; 
+    object-fit: cover;
+    height: 35vh; 
+}
+
+ .mug, .vase, .mugs, .twos {
+     margin: 0 .5em
+ }
+
+ .product-6 { 
+     object-fit: cover;
+     object-position: 50% 10%;
+ }
+
+ /* Footer*/
+
+ .footer {
+     background-color: #2A3025;
+     color: white;
+     padding: 2em;
+ }
